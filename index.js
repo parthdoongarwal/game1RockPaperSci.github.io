@@ -24,7 +24,7 @@ function isDead() {
   window.prompt("Waring", "Please Dont touch the sleeping robot");
   let value = localStorage.getItem("dead");
 
-  if (value == "yes") {
+  if (value == "no") {
     window.location.replace("death.html");
   }
 }
